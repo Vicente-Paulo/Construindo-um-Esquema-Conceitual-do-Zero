@@ -1,2 +1,3 @@
-# Construindo-um-Esquema-Conceitual-do-Zero
-Ordem de serviço de oficina Mecânica
+## Construindo um Esquema Conceitual do Zero
+### Ordem de serviço de oficina Mecânica
+O modelo conceitual de ordem de serviço para oficina mecânica foi construido com as entidades "cliente", "serviço", "mecânico responsável", "ordem de serviço", e "tabela de referência". Os relacionamentos ocorrem da segunte forma; a entidade "cliente" solicita um ou mais serviços para a entidade "serviço" pelo qual passa pela analise de um ou mais "mecânico responsável" que gera um ou mais "ordem de serviço" cujo qual é submetida a uma consuta pela "tabela de referência" que contem os valores de serviços e outros atributos, em seguida é enviada para o "cliente" que pode ter uma ou várias ordens de serviço a autorizar, por fim a mesma é enviada para o "responsável mecânico" executar, já que são eles mesmos que geram a ordem de serviço e executam o serviço.
